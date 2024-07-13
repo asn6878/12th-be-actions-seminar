@@ -15,6 +15,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 
+// 주석 추가했음
 @RestController
 @RequestMapping("/api/v1/post")
 @RequiredArgsConstructor(access = AccessLevel.PROTECTED)
